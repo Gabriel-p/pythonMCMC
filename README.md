@@ -1,10 +1,11 @@
+List of Python-based MCMC packages in no particular order.
 
-List of Python-based MCMC packages
 
 ##### Table of Contents  
 1. [PyMC3](#pymc3) 
 1. [PyStan](#pystan) 
 1. [emcee](#emcee)
+1. [PyJAGS](#pyjags)
 
 
 ## [PyMC3](http://docs.pymc.io/intro.html)
@@ -50,13 +51,19 @@ sampler](http://msp.berkeley.edu/camcos/2010/5-1/p04.xhtml)
 (2012)](https://arxiv.org/abs/1202.3665)
 
 
+## [PyJAGS](https://pyjags.readthedocs.io/en/latest/)
+
+> PyJAGS provides a Python interface to JAGS, a program for analysis of
+Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation.
+
+* Repo: https://github.com/tmiasko/pyjags
+
 
 ## [Sampyl](http://matatat.org/sampyl/index.html)
 ## [NUTS](https://github.com/mfouesneau/NUTS)
 ## [pgmpy](https://github.com/pgmpy/pgmpy)
 ## [XHMC](https://arxiv.org/abs/1601.00225)
 ## [nestle](http://kylebarbary.com/nestle/)
-## [PyJAGS](https://pyjags.readthedocs.io/en/latest/?badge=latest)
 ## [DNest4](https://github.com/eggplantbren/DNest4)
 ## [kombine](http://pages.uoregon.edu/bfarr/kombine/index.html)
 ## [pyhmc](https://pythonhosted.org/pyhmc/index.html)
