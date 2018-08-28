@@ -2,10 +2,14 @@ List of Python-based MCMC packages in no particular order.
 
 
 ##### Table of Contents  
-1. [PyMC3](#pymc3) 
-1. [PyStan](#pystan) 
-1. [emcee](#emcee)
+1. [PyMC3](#pymc3)
+1. [PyStan](#pystan)
 1. [PyJAGS](#pyjags)
+1. [emcee](#emcee)
+1. [ptemcee](#ptemcee)
+1. [pgmpy](#pgmpy)
+1. [pyhmc](#pyhmc)
+
 
 
 ## [PyMC3](http://docs.pymc.io/intro.html)
@@ -39,6 +43,15 @@ the No-U-Turn sampler, a variant of Hamiltonian Monte Carlo.*
 * Examples: https://stats.stackexchange.com/questions/162857/managing-high-autocorrelation-in-mcmc (autocorrelation)
 
 
+## [PyJAGS](https://pyjags.readthedocs.io/en/latest/)
+
+> PyJAGS provides a Python interface to JAGS, a program for analysis of
+Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation.
+
+* Repo: https://github.com/tmiasko/pyjags
+* Blog article: https://martynplummer.wordpress.com/2016/01/11/pyjags/
+
+
 ## [emcee](http://dfm.io/emcee/current/)
 
 > emcee is an MIT licensed pure-Python implementation of Goodman & Weare’s
@@ -51,23 +64,50 @@ sampler](http://msp.berkeley.edu/camcos/2010/5-1/p04.xhtml)
 (2012)](https://arxiv.org/abs/1202.3665)
 
 
-## [PyJAGS](https://pyjags.readthedocs.io/en/latest/)
+## [ptemcee](http://ptemcee.readthedocs.io/en/latest/)
 
-> PyJAGS provides a Python interface to JAGS, a program for analysis of
-Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation.
+> ...is a fork of Daniel Foreman-Mackey's wonderful emcee to implement parallel
+tempering more robustly. As far as possible, it is designed as a drop-in
+replacement for emcee. If you're trying to characterise awkward, multi-modal
+probability distributions, then ptemcee is your friend.
 
-* Repo: https://github.com/tmiasko/pyjags
+* Repo: https://github.com/willvousden/ptemcee
+* Docs: http://ptemcee.readthedocs.io/en/latest/
+
+
+## [pgmpy](https://github.com/pgmpy/pgmpy)
+
+> pgmpy is a python library for working with Probabilistic Graphical Models.
+
+* Repo: https://github.com/pgmpy/pgmpy
+* Docs (and list of algorithms supported): http://pgmpy.org/
+* Examples: https://github.com/pgmpy/pgmpy/tree/dev/examples
+* Basic tutorial: https://github.com/pgmpy/pgmpy_notebook
+* Article: [MCMC: Hamiltonian Monte Carlo and No-U-Turn
+Sampler](http://khalibartan.github.io/MCMC-Hamiltonian-Monte-Carlo-and-No-U-Turn-Sampler/)
+
+
+## [pyhmc](https://pythonhosted.org/pyhmc/index.html)
+
+> Hamiltonian Monte Carlo or Hybrid Monte Carlo (HMC) is a Markov chain Monte
+Carlo (MCMC) algorithm. Hamiltonian dynamics can be used to produce distant
+proposals for the Metropolis algorithm, thereby avoiding the slow exploration
+of the state space that results from the diffusive behaviour of simple
+random-walk proposals. It does this by taking a series of steps informed by
+first-order gradient information. This feature allows it to converge much more
+quickly to high-dimensional target distributions compared to simpler methods
+such as Metropolis, Gibbs sampling (and derivatives).
+
+* Repo: https://github.com/rmcgibbo/pyhmc
+* Docs: https://pythonhosted.org/pyhmc/index.html
 
 
 ## [Sampyl](http://matatat.org/sampyl/index.html)
 ## [NUTS](https://github.com/mfouesneau/NUTS)
-## [pgmpy](https://github.com/pgmpy/pgmpy)
 ## [XHMC](https://arxiv.org/abs/1601.00225)
 ## [nestle](http://kylebarbary.com/nestle/)
 ## [DNest4](https://github.com/eggplantbren/DNest4)
 ## [kombine](http://pages.uoregon.edu/bfarr/kombine/index.html)
-## [pyhmc](https://pythonhosted.org/pyhmc/index.html)
-## [ptemcee](http://ptemcee.readthedocs.io/en/latest/)
 ## [bmcmc](http://bmcmc.readthedocs.io/en/latest/index.html)
 ## [MCcubed](http://pcubillos.github.io/MCcubed/)
 ## [Nested Sampling](http://js850.github.io/nested_sampling/)
