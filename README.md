@@ -9,6 +9,10 @@ List of Python-based MCMC packages in no particular order.
 1. [ptemcee](#ptemcee)
 1. [pgmpy](#pgmpy)
 1. [pyhmc](#pyhmc)
+1. [bmcmc](#bmcmc)
+1. [hmc](#hmc)
+1. [Sampyl](#sampyl)
+1. [Nested Sampling](#nestedsampling)
 
 
 
@@ -102,15 +106,67 @@ such as Metropolis, Gibbs sampling (and derivatives).
 * Docs: https://pythonhosted.org/pyhmc/index.html
 
 
+## [bmcmc](http://bmcmc.readthedocs.io/en/latest/index.html)
+
+> bmcmc is a general purpose mcmc package which should be useful for Bayesian
+data analysis. It uses an adaptive scheme for automatic tuning of proposal
+distributions. It can also handle hierarchical Bayesian models via
+Metropolis-Within-Gibbs scheme.
+
+* Repo: https://github.com/sanjibs/bmcmc/
+* Docs: https://bmcmc.readthedocs.io/en/latest/
+* Article: [Markov Chain Monte Carlo Methods for Bayesian Data Analysis in
+Astronomy, Sharma (2017)](https://arxiv.org/abs/1706.01629)
+
+
+## [hmc](https://github.com/bd-j/hmc)
+
+> A simple Hamiltonian MCMC sampler.
+
+* Repo: https://github.com/bd-j/hmc
+
+
 ## [Sampyl](http://matatat.org/sampyl/index.html)
+
+> Sampyl is a Python library implementing Markov Chain Monte Carlo (MCMC)
+samplers in Python. It’s designed for use in Bayesian parameter estimation
+and provides a collection of distribution log-likelihoods for use in
+constructing models.
+
+* Repo: https://github.com/mcleonard/sampyl/
+* Docs: http://matatat.org/sampyl/index.html
+* Example: http://matatat.org/ab-testing-with-sampyl.html
+
+
+## [Nested Sampling](http://js850.github.io/nested_sampling/)
+
+> Nested sampling estimates directly how the likelihood function relates to
+prior mass. The evidence (alternatively the marginal likelihood, marginal
+density of the data, or the prior predictive) is immediately obtained by
+summation. It is the prime result of the computation, and is accompanied by an
+estimate of numerical uncertainty. Samples from the posterior distribution are
+an optional by-product, obtainable for any temperature. The method relies on
+sampling within a hard constraint on likelihood value, as opposed to the
+softened likelihood of annealing methods. Progress depends only on the shape of
+the "nested" contours of likelihood, and not on the likelihood values. This
+invariance (over monotonic re-labelling) allows the method to deal with a class
+of phase-change problems which effectively defeat thermal annealing.
+
+* [Official site](http://www.inference.phy.cam.ac.uk/bayesys/)
+* Repo: https://github.com/js850/nested_sampling
+* Docs: http://js850.github.io/nested_sampling/
+* Original article: [Nested sampling for general Bayesian computation, John Skilling (2006)](http://projecteuclid.org/euclid.ba/1340370944)
+* Article where the algorithm is used: [A Galaxy Model from 2MASS Star Counts in the Whole Sky Including the Plane; Polido, Jablonski & Lépine (2013)](http://arxiv.org/abs/1308.6238)
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Nested_sampling_algorithm)
+* [Poster comparing with annealing](http://www.mrao.cam.ac.uk/~steve/malta2009/images/nestposter.pdf)
+
+
 ## [NUTS](https://github.com/mfouesneau/NUTS)
 ## [XHMC](https://arxiv.org/abs/1601.00225)
 ## [nestle](http://kylebarbary.com/nestle/)
 ## [DNest4](https://github.com/eggplantbren/DNest4)
 ## [kombine](http://pages.uoregon.edu/bfarr/kombine/index.html)
-## [bmcmc](http://bmcmc.readthedocs.io/en/latest/index.html)
 ## [MCcubed](http://pcubillos.github.io/MCcubed/)
-## [Nested Sampling](http://js850.github.io/nested_sampling/)
-## [hmc](https://github.com/bd-j/hmc)
+
 ## [hoppMCMC](https://github.com/kerguler/hoppMCMC)
 ## [PyDREAM](https://github.com/LoLab-VU/PyDREAM)
