@@ -3,16 +3,4 @@
 
 @import "{{ site.theme }}";
 
-ul.toc {
-  list-style:none;
-}
-
-.toc li {
-  width:89px;
-  float:left;
-  height:40px;
-}
-
-ul.downloads {
-  list-style:none;
-}
+.toc ul, .toc li, .toc a { list-style:none; }
