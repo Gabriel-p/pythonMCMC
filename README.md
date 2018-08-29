@@ -1,20 +1,5 @@
-List of Python-based MCMC packages in no particular order.
-
-
-##### Table of Contents  
-1. [PyMC3](#pymc3)
-1. [PyStan](#pystan)
-1. [PyJAGS](#pyjags)
-1. [emcee](#emcee)
-1. [ptemcee](#ptemcee)
-1. [pgmpy](#pgmpy)
-1. [pyhmc](#pyhmc)
-1. [bmcmc](#bmcmc)
-1. [hmc](#hmc)
-1. [Sampyl](#sampyl)
-1. [Nested Sampling](#nested-sampling)
-
-
+List of Python-based MCMC packages in no particular order. Here's a nice list
+of [MCMC algorithms](https://m-clark.github.io/docs/ld_mcmc/).
 
 ## [PyMC3](http://docs.pymc.io/intro.html)
 
