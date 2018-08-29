@@ -27,7 +27,7 @@
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View2 the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 
         <!-- {% if site.github.is_user_page %}
@@ -41,6 +41,12 @@
           <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
         </ul>
         {% endif %}-->
+
+        <nav role="navigation" class="table-of-contents">
+          <ul>
+            <li><a href="#pymc3">PyMC3</a></li>
+          </ul>
+        </nav>
 
       </header>
 
@@ -56,13 +62,9 @@
       </footer>
     </div>
 
-    <div class="wrapper">
-      <nav role="navigation" class="table-of-contents">
-        <ul>
-          <li><a href="#pymc3">PyMC3</a></li>
-        </ul>
-      </nav>
-    </div>
+<!--     <div class="wrapper">
+
+    </div> -->
 
 
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
