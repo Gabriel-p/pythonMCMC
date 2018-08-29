@@ -1,6 +1,8 @@
 (Here's a nice list
 of [MCMC algorithms](https://m-clark.github.io/docs/ld_mcmc/))
 
+* [PyMC3](#pymc3)
+
 ## PyMC3
 
 > PyMC3 is a probabilistic programming module for Python that allows users
