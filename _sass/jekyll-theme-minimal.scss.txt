@@ -116,6 +116,15 @@ ul.downloads2 {
   height:40px;
 }
 
+.downloads2 li {
+  width:89px;
+  float:left;
+}
+
+.downloads2 li + li + li {
+  border-right:none;
+  width:89px;
+}
 
 ul.downloads {
   list-style:none;
