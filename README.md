@@ -12,7 +12,7 @@ List of Python-based MCMC packages in no particular order.
 1. [bmcmc](#bmcmc)
 1. [hmc](#hmc)
 1. [Sampyl](#sampyl)
-1. [Nested Sampling](#nested sampling)
+1. [Nested Sampling](#nested_sampling)
 
 
 
