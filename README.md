@@ -1,7 +1,6 @@
 (Here's a nice list
 of [MCMC algorithms](https://m-clark.github.io/docs/ld_mcmc/))
 
-* [PyMC3](#pymc3)
 
 ## PyMC3
 
