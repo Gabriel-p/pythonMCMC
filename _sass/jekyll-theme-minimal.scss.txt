@@ -116,12 +116,12 @@ ul.toc {
   height:40px;
 }
 
-.toc li {
+.toc li2 {
   width:89px;
   float:left;
 }
 
-.toc li + li + li {
+.toc li2 + li2 + li2 {
   border-right:none;
   width:89px;
 }
