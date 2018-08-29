@@ -1,7 +1,8 @@
-List of Python-based MCMC packages in no particular order. Here's a nice list
+List of Python-based MCMC packages in no particular order.
+Also, here's a nice list
 of [MCMC algorithms](https://m-clark.github.io/docs/ld_mcmc/).
 
-## [PyMC3](http://docs.pymc.io/intro.html)
+## PyMC3
 
 > PyMC3 is a probabilistic programming module for Python that allows users
 to fit Bayesian models using a variety of numerical methods, most notably
@@ -22,7 +23,7 @@ functionality for summarizing output and for model diagnostics.
 * Article: [Probabilistic Programming in Python using PyMC, Salvatier et al. (2015)](https://arxiv.org/abs/1507.08050)
 
 
-## [PyStan](http://mc-stan.org/about/)
+## PyStan
 
 > PyStan provides an interface to Stan, a package for Bayesian inference using
 the No-U-Turn sampler, a variant of Hamiltonian Monte Carlo.*
@@ -32,28 +33,29 @@ the No-U-Turn sampler, a variant of Hamiltonian Monte Carlo.*
 * Examples: https://stats.stackexchange.com/questions/162857/managing-high-autocorrelation-in-mcmc (autocorrelation)
 
 
-## [PyJAGS](https://pyjags.readthedocs.io/en/latest/)
+## PyJAGS
 
 > PyJAGS provides a Python interface to JAGS, a program for analysis of
 Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation.
 
 * Repo: https://github.com/tmiasko/pyjags
+* Docs: https://pyjags.readthedocs.io/en/latest/
 * Blog article: https://martynplummer.wordpress.com/2016/01/11/pyjags/
 
 
-## [emcee](http://dfm.io/emcee/current/)
+## emcee
 
 > emcee is an MIT licensed pure-Python implementation of Goodman & Weare’s
 [Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble
 sampler](http://msp.berkeley.edu/camcos/2010/5-1/p04.xhtml)
 
-* Docs: https://emcee.readthedocs.io/en/latest/
+* Docs: http://dfm.io/emcee/current/, https://emcee.readthedocs.io/en/latest/
 * Repo: https://github.com/dfm/emcee
 * Article: [emcee: The MCMC Hammer, Foreman-Mackey et al.
 (2012)](https://arxiv.org/abs/1202.3665)
 
 
-## [ptemcee](http://ptemcee.readthedocs.io/en/latest/)
+## ptemcee
 
 > ...is a fork of Daniel Foreman-Mackey's wonderful emcee to implement parallel
 tempering more robustly. As far as possible, it is designed as a drop-in
@@ -64,7 +66,7 @@ probability distributions, then ptemcee is your friend.
 * Docs: http://ptemcee.readthedocs.io/en/latest/
 
 
-## [pgmpy](https://github.com/pgmpy/pgmpy)
+## pgmpy
 
 > pgmpy is a python library for working with Probabilistic Graphical Models.
 
@@ -76,7 +78,7 @@ probability distributions, then ptemcee is your friend.
 Sampler](http://khalibartan.github.io/MCMC-Hamiltonian-Monte-Carlo-and-No-U-Turn-Sampler/)
 
 
-## [pyhmc](https://pythonhosted.org/pyhmc/index.html)
+## pyhmc
 
 > Hamiltonian Monte Carlo or Hybrid Monte Carlo (HMC) is a Markov chain Monte
 Carlo (MCMC) algorithm. Hamiltonian dynamics can be used to produce distant
@@ -91,7 +93,7 @@ such as Metropolis, Gibbs sampling (and derivatives).
 * Docs: https://pythonhosted.org/pyhmc/index.html
 
 
-## [bmcmc](http://bmcmc.readthedocs.io/en/latest/index.html)
+## bmcmc
 
 > bmcmc is a general purpose mcmc package which should be useful for Bayesian
 data analysis. It uses an adaptive scheme for automatic tuning of proposal
@@ -104,14 +106,14 @@ Metropolis-Within-Gibbs scheme.
 Astronomy, Sharma (2017)](https://arxiv.org/abs/1706.01629)
 
 
-## [hmc](https://github.com/bd-j/hmc)
+## hmc
 
 > A simple Hamiltonian MCMC sampler.
 
 * Repo: https://github.com/bd-j/hmc
 
 
-## [Sampyl](http://matatat.org/sampyl/index.html)
+## Sampyl
 
 > Sampyl is a Python library implementing Markov Chain Monte Carlo (MCMC)
 samplers in Python. It’s designed for use in Bayesian parameter estimation
@@ -123,7 +125,7 @@ constructing models.
 * Example: http://matatat.org/ab-testing-with-sampyl.html
 
 
-## [Nested Sampling](http://js850.github.io/nested_sampling/)
+## Nested Sampling
 
 > Nested sampling estimates directly how the likelihood function relates to
 prior mass. The evidence (alternatively the marginal likelihood, marginal
