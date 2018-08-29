@@ -1,5 +1,5 @@
-(Here's a nice list
-of [MCMC algorithms](https://m-clark.github.io/docs/ld_mcmc/))
+A list of Python-based MCMC packages. Also here's a nice list
+of [MCMC algorithms](https://m-clark.github.io/docs/ld_mcmc/).
 
 
 ## PyMC3
