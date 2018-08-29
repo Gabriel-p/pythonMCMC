@@ -17,5 +17,15 @@ ul.downloads {
   width:89px;
   float:left;
   border-right:1px;
-  height:20px;
+  height:10px;
+}
+
+.downloads a {
+  line-height:1;
+  font-size:11px;
+  color:#676767;
+  display:block;
+  text-align:center;
+  padding-top:6px;
+  height:34px;
 }
