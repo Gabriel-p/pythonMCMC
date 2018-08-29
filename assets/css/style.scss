@@ -5,15 +5,8 @@
 
 ul.toc {
   list-style:none;
-  height:40px;
-}
-
-.toc li {
-  width:89px;
-  float:left;
 }
 
 .toc li + li + li + li {
   border-right:none;
-  width:50px;
 }
