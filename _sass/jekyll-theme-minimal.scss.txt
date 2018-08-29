@@ -111,17 +111,17 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-ul.downloads2 {
+ul.toc {
   list-style:none;
   height:40px;
 }
 
-.downloads2 li {
+.toc li {
   width:89px;
   float:left;
 }
 
-.downloads2 li + li + li {
+.toc li + li + li {
   border-right:none;
   width:89px;
 }
