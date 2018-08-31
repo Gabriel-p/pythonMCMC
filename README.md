@@ -154,6 +154,8 @@ of phase-change problems which effectively defeat thermal annealing.
 ## [DNest4](https://github.com/eggplantbren/DNest4)
 ## [kombine](http://pages.uoregon.edu/bfarr/kombine/index.html)
 ## [MCcubed](http://pcubillos.github.io/MCcubed/)
-
 ## [hoppMCMC](https://github.com/kerguler/hoppMCMC)
 ## [PyDREAM](https://github.com/LoLab-VU/PyDREAM)
+## [pymcmc](https://github.com/gmcgoldr/pymcmc)
+## [py-mcmc](https://pypi.org/project/py-mcmc/)
+
