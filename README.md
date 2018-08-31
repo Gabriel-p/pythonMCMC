@@ -160,3 +160,11 @@ of phase-change problems which effectively defeat thermal annealing.
 ## [pymcmc](https://github.com/gmcgoldr/pymcmc)
 ## [py-mcmc](https://pypi.org/project/py-mcmc/)
 
+## [simpleabc](https://github.com/rcmorehead/simpleabc)
+## [astroABC](https://github.com/EliseJ/astroABC)
+## [CosmoABC](https://github.com/COINtoolbox/CosmoABC)
+## [abcpmc](https://github.com/jakeret/abcpmc)
+## [ELFI](https://github.com/elfi-dev/elfi)
+
+
+
