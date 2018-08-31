@@ -3,96 +3,9 @@ Also here's a nice list
 of [MCMC algorithms](https://m-clark.github.io/docs/ld_mcmc/).
 
 
-## PyMC3
+## [abcpmc](https://github.com/jakeret/abcpmc)
 
-> PyMC3 is a probabilistic programming module for Python that allows users
-to fit Bayesian models using a variety of numerical methods, most notably
-Markov chain Monte Carlo (MCMC) and variational inference (VI). Its flexibility
-and extensibility make it applicable to a large suite of problems. Along with
-core model specification and fitting functionality, PyMC3 includes
-functionality for summarizing output and for model diagnostics.
-
-* Docs: http://docs.pymc.io/intro.html
-* Repo: https://github.com/pymc-devs/pymc3
-* Tutorials:
-  1. [Bayesian Modelling in Python](https://github.com/markdregan/Bayesian-Modelling-in-Python)
-  1. [Using PyMC3](http://people.duke.edu/~ccc14/sta-663-2017/19A_PyMC3.html)
-  1. [Tutorial 5a: Parameter estimation with Markov chain Monte Carlo](http://bebi103.caltech.edu.s3-website-us-east-1.amazonaws.com/2017/tutorials/t5a_mcmc.html)
-* Recommended book: [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
-* Recommended book: [Statistical Rethinking with Python and PyMC3](https://github.com/aloctavodia/Statistical-Rethinking-with-Python-and-PyMC3)
-* Examples: https://stats.stackexchange.com/questions/119879/how-to-interpret-autocorrelation-plot-in-mcmc (autocorrelation)
-* Article: [Probabilistic Programming in Python using PyMC, Salvatier et al. (2015)](https://arxiv.org/abs/1507.08050)
-
-
-## PyStan
-
-> PyStan provides an interface to Stan, a package for Bayesian inference using
-the No-U-Turn sampler, a variant of Hamiltonian Monte Carlo.*
-
-* Stan's homepage: http://mc-stan.org/about/
-* PyStan's homepage: https://pystan.readthedocs.io/en/latest/index.html
-* Examples: https://stats.stackexchange.com/questions/162857/managing-high-autocorrelation-in-mcmc (autocorrelation)
-
-
-## PyJAGS
-
-> PyJAGS provides a Python interface to JAGS, a program for analysis of
-Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation.
-
-* Repo: https://github.com/tmiasko/pyjags
-* Docs: https://pyjags.readthedocs.io/en/latest/
-* Blog article: https://martynplummer.wordpress.com/2016/01/11/pyjags/
-
-
-## emcee
-
-> emcee is an MIT licensed pure-Python implementation of Goodman & Weare’s
-[Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble
-sampler](http://msp.berkeley.edu/camcos/2010/5-1/p04.xhtml)
-
-* Docs: http://dfm.io/emcee/current/, https://emcee.readthedocs.io/en/latest/
-* Repo: https://github.com/dfm/emcee
-* Article: [emcee: The MCMC Hammer, Foreman-Mackey et al.
-(2012)](https://arxiv.org/abs/1202.3665)
-
-
-## ptemcee
-
-> ...is a fork of Daniel Foreman-Mackey's wonderful emcee to implement parallel
-tempering more robustly. As far as possible, it is designed as a drop-in
-replacement for emcee. If you're trying to characterise awkward, multi-modal
-probability distributions, then ptemcee is your friend.
-
-* Repo: https://github.com/willvousden/ptemcee
-* Docs: http://ptemcee.readthedocs.io/en/latest/
-
-
-## pgmpy
-
-> pgmpy is a python library for working with Probabilistic Graphical Models.
-
-* Repo: https://github.com/pgmpy/pgmpy
-* Docs (and list of algorithms supported): http://pgmpy.org/
-* Examples: https://github.com/pgmpy/pgmpy/tree/dev/examples
-* Basic tutorial: https://github.com/pgmpy/pgmpy_notebook
-* Article: [MCMC: Hamiltonian Monte Carlo and No-U-Turn
-Sampler](http://khalibartan.github.io/MCMC-Hamiltonian-Monte-Carlo-and-No-U-Turn-Sampler/)
-
-
-## pyhmc
-
-> Hamiltonian Monte Carlo or Hybrid Monte Carlo (HMC) is a Markov chain Monte
-Carlo (MCMC) algorithm. Hamiltonian dynamics can be used to produce distant
-proposals for the Metropolis algorithm, thereby avoiding the slow exploration
-of the state space that results from the diffusive behaviour of simple
-random-walk proposals. It does this by taking a series of steps informed by
-first-order gradient information. This feature allows it to converge much more
-quickly to high-dimensional target distributions compared to simpler methods
-such as Metropolis, Gibbs sampling (and derivatives).
-
-* Repo: https://github.com/rmcgibbo/pyhmc
-* Docs: https://pythonhosted.org/pyhmc/index.html
-
+## [astroABC](https://github.com/EliseJ/astroABC)
 
 ## bmcmc
 
@@ -106,6 +19,22 @@ Metropolis-Within-Gibbs scheme.
 * Article: [Markov Chain Monte Carlo Methods for Bayesian Data Analysis in
 Astronomy, Sharma (2017)](https://arxiv.org/abs/1706.01629)
 
+## [CosmoABC](https://github.com/COINtoolbox/CosmoABC)
+
+## [DNest4](https://github.com/eggplantbren/DNest4)
+
+## [ELFI](https://github.com/elfi-dev/elfi)
+
+## emcee
+
+> emcee is an MIT licensed pure-Python implementation of Goodman & Weare’s
+[Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble
+sampler](http://msp.berkeley.edu/camcos/2010/5-1/p04.xhtml)
+
+* Docs: http://dfm.io/emcee/current/, https://emcee.readthedocs.io/en/latest/
+* Repo: https://github.com/dfm/emcee
+* Article: [emcee: The MCMC Hammer, Foreman-Mackey et al.
+(2012)](https://arxiv.org/abs/1202.3665)
 
 ## hmc
 
@@ -113,18 +42,11 @@ Astronomy, Sharma (2017)](https://arxiv.org/abs/1706.01629)
 
 * Repo: https://github.com/bd-j/hmc
 
+## [hoppMCMC](https://github.com/kerguler/hoppMCMC)
 
-## Sampyl
+## [kombine](http://pages.uoregon.edu/bfarr/kombine/index.html)
 
-> Sampyl is a Python library implementing Markov Chain Monte Carlo (MCMC)
-samplers in Python. It’s designed for use in Bayesian parameter estimation
-and provides a collection of distribution log-likelihoods for use in
-constructing models.
-
-* Repo: https://github.com/mcleonard/sampyl/
-* Docs: http://matatat.org/sampyl/index.html
-* Example: http://matatat.org/ab-testing-with-sampyl.html
-
+## [MCcubed](http://pcubillos.github.io/MCcubed/)
 
 ## Nested Sampling
 
@@ -148,23 +70,102 @@ of phase-change problems which effectively defeat thermal annealing.
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Nested_sampling_algorithm)
 * [Poster comparing with annealing](http://www.mrao.cam.ac.uk/~steve/malta2009/images/nestposter.pdf)
 
+## [nestle](http://kylebarbary.com/nestle/)
 
 ## [NUTS](https://github.com/mfouesneau/NUTS)
-## [XHMC](https://arxiv.org/abs/1601.00225)
-## [nestle](http://kylebarbary.com/nestle/)
-## [DNest4](https://github.com/eggplantbren/DNest4)
-## [kombine](http://pages.uoregon.edu/bfarr/kombine/index.html)
-## [MCcubed](http://pcubillos.github.io/MCcubed/)
-## [hoppMCMC](https://github.com/kerguler/hoppMCMC)
+
+## pgmpy
+
+> pgmpy is a python library for working with Probabilistic Graphical Models.
+
+* Repo: https://github.com/pgmpy/pgmpy
+* Docs (and list of algorithms supported): http://pgmpy.org/
+* Examples: https://github.com/pgmpy/pgmpy/tree/dev/examples
+* Basic tutorial: https://github.com/pgmpy/pgmpy_notebook
+* Article: [MCMC: Hamiltonian Monte Carlo and No-U-Turn
+Sampler](http://khalibartan.github.io/MCMC-Hamiltonian-Monte-Carlo-and-No-U-Turn-Sampler/)
+
+## ptemcee
+
+> ...is a fork of Daniel Foreman-Mackey's wonderful emcee to implement parallel
+tempering more robustly. As far as possible, it is designed as a drop-in
+replacement for emcee. If you're trying to characterise awkward, multi-modal
+probability distributions, then ptemcee is your friend.
+
+* Repo: https://github.com/willvousden/ptemcee
+* Docs: http://ptemcee.readthedocs.io/en/latest/
+
 ## [PyDREAM](https://github.com/LoLab-VU/PyDREAM)
+
+## pyhmc
+
+> Hamiltonian Monte Carlo or Hybrid Monte Carlo (HMC) is a Markov chain Monte
+Carlo (MCMC) algorithm. Hamiltonian dynamics can be used to produce distant
+proposals for the Metropolis algorithm, thereby avoiding the slow exploration
+of the state space that results from the diffusive behaviour of simple
+random-walk proposals. It does this by taking a series of steps informed by
+first-order gradient information. This feature allows it to converge much more
+quickly to high-dimensional target distributions compared to simpler methods
+such as Metropolis, Gibbs sampling (and derivatives).
+
+* Repo: https://github.com/rmcgibbo/pyhmc
+* Docs: https://pythonhosted.org/pyhmc/index.html
+
+## PyJAGS
+
+> PyJAGS provides a Python interface to JAGS, a program for analysis of
+Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation.
+
+* Repo: https://github.com/tmiasko/pyjags
+* Docs: https://pyjags.readthedocs.io/en/latest/
+* Blog article: https://martynplummer.wordpress.com/2016/01/11/pyjags/
+
+## PyMC3
+
+> PyMC3 is a probabilistic programming module for Python that allows users
+to fit Bayesian models using a variety of numerical methods, most notably
+Markov chain Monte Carlo (MCMC) and variational inference (VI). Its flexibility
+and extensibility make it applicable to a large suite of problems. Along with
+core model specification and fitting functionality, PyMC3 includes
+functionality for summarizing output and for model diagnostics.
+
+* Docs: http://docs.pymc.io/intro.html
+* Repo: https://github.com/pymc-devs/pymc3
+* Tutorials:
+  1. [Bayesian Modelling in Python](https://github.com/markdregan/Bayesian-Modelling-in-Python)
+  1. [Using PyMC3](http://people.duke.edu/~ccc14/sta-663-2017/19A_PyMC3.html)
+  1. [Tutorial 5a: Parameter estimation with Markov chain Monte Carlo](http://bebi103.caltech.edu.s3-website-us-east-1.amazonaws.com/2017/tutorials/t5a_mcmc.html)
+* Recommended book: [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
+* Recommended book: [Statistical Rethinking with Python and PyMC3](https://github.com/aloctavodia/Statistical-Rethinking-with-Python-and-PyMC3)
+* Examples: https://stats.stackexchange.com/questions/119879/how-to-interpret-autocorrelation-plot-in-mcmc (autocorrelation)
+* Article: [Probabilistic Programming in Python using PyMC, Salvatier et al. (2015)](https://arxiv.org/abs/1507.08050)
+
 ## [pymcmc](https://github.com/gmcgoldr/pymcmc)
+
 ## [py-mcmc](https://pypi.org/project/py-mcmc/)
 
+## PyStan
+
+> PyStan provides an interface to Stan, a package for Bayesian inference using
+the No-U-Turn sampler, a variant of Hamiltonian Monte Carlo.*
+
+* Stan's homepage: http://mc-stan.org/about/
+* PyStan's homepage: https://pystan.readthedocs.io/en/latest/index.html
+* Examples: https://stats.stackexchange.com/questions/162857/managing-high-autocorrelation-in-mcmc (autocorrelation)
+
+## Sampyl
+
+> Sampyl is a Python library implementing Markov Chain Monte Carlo (MCMC)
+samplers in Python. It’s designed for use in Bayesian parameter estimation
+and provides a collection of distribution log-likelihoods for use in
+constructing models.
+
+* Repo: https://github.com/mcleonard/sampyl/
+* Docs: http://matatat.org/sampyl/index.html
+* Example: http://matatat.org/ab-testing-with-sampyl.html
+
 ## [simpleabc](https://github.com/rcmorehead/simpleabc)
-## [astroABC](https://github.com/EliseJ/astroABC)
-## [CosmoABC](https://github.com/COINtoolbox/CosmoABC)
-## [abcpmc](https://github.com/jakeret/abcpmc)
-## [ELFI](https://github.com/elfi-dev/elfi)
 
+## [SPOTPY](https://github.com/thouska/spotpy)
 
-
+## [XHMC](https://arxiv.org/abs/1601.00225)
