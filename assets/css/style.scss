@@ -5,10 +5,17 @@
 
 body {
   background-color: #fff;
-  padding:10px;
+  padding:20px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
+}
+
+header {
+  width:200px;
+  float:left;
+  position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
 }
 
 ul.downloads {
