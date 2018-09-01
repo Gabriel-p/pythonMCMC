@@ -15,12 +15,14 @@ techniques.
 > * Parallelized with muliprocessing or message passing interface (MPI)
 > * Extendable with k-nearest neighbour (KNN) or optimal local covariance
 matrix (OLCM) pertubation kernels (Fillipi et al. 2012)
+> * Detailed examples in IPython notebooks
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
 https://github.com/jakeret/abcpmc) | 
 <img src="./img/docs.png" width="20" height="20"> [Docs](
 http://abcpmc.readthedocs.org/)
-<br>
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://arxiv.org/abs/1504.07245)
 
 
 ## astroABC
