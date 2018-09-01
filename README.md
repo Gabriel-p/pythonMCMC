@@ -20,6 +20,7 @@ matrix (OLCM) pertubation kernels (Fillipi et al. 2012)
 https://github.com/jakeret/abcpmc) | 
 <img src="./img/docs.png" width="20" height="20"> [Docs](
 http://abcpmc.readthedocs.org/)
+<br>
 
 
 ## astroABC
