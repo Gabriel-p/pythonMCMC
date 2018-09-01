@@ -20,7 +20,7 @@ matrix (OLCM) pertubation kernels (Fillipi et al. 2012)
 <img src="./img/github.png" width="20" height="20"> [Repo](
 https://github.com/jakeret/abcpmc) | 
 <img src="./img/docs.png" width="20" height="20"> [Docs](
-http://abcpmc.readthedocs.org/)
+http://abcpmc.readthedocs.org/) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://arxiv.org/abs/1504.07245)
 
