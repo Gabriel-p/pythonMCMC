@@ -3,9 +3,63 @@ Also here's a nice list
 of [MCMC algorithms](https://m-clark.github.io/docs/ld_mcmc/).
 
 
-## [abcpmc](https://github.com/jakeret/abcpmc)
+## abcpmc
 
-## [astroABC](https://github.com/EliseJ/astroABC)
+> A Python Approximate Bayesian Computing (ABC) Population Monte Carlo (PMC)
+implementation based on Sequential Monte Carlo (SMC) with Particle Filtering
+techniques.
+>
+> Features:
+> * Entirely implemented in Python and easy to extend
+> * Follows Beaumont et al. 2009 PMC algorithm
+> * Parallelized with muliprocessing or message passing interface (MPI)
+> * Extendable with k-nearest neighbour (KNN) or optimal local covariance
+matrix (OLCM) pertubation kernels (Fillipi et al. 2012)
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/jakeret/abcpmc) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://abcpmc.readthedocs.org/)
+
+
+## astroABC
+
+> astroABC is a Python implementation of an Approximate Bayesian Computation
+Sequential Monte Carlo (ABC SMC) sampler for parameter estimation.
+>
+> Key features
+> * Parallel sampling using MPI or multiprocessing
+> * MPI communicator can be split so both the sampler, and simulation launched
+by each particle, can run in parallel
+> * A Sequential Monte Carlo sampler (see e.g. Toni et al. 2009, Beaumont et
+al. 2009, Sisson & Fan 2010)
+> * A method for iterative adapting tolerance levels using the qth quantile of
+the distance for t iterations (Turner & Van Zandt (2012))
+> * Scikit-learn covariance matrix estimation using Ledoit-Wolf shrinkage for
+singular matrices
+> * A module for specifying particle covariance using method proposed by Turner
+& Van Zandt (2012), optimal covariance matrix for a multivariate normal
+perturbation kernel, local covariance estimate using scikit-learn KDTree method
+for nearest neighbours (Filippi et al 2013) and a weighted covariance 
+(Beaumont et al 2009)
+> * Restart files output frequently so an interrupted run can be resumed at any
+iteration
+> * Output and restart files are backed up every iteration
+> * User defined distance metric and simulation methods
+> * A class for specifying heterogeneous parameter priors
+> * Methods for drawing from any non-standard prior PDF e.g using Planck/WMAP
+chains
+> * A module for specifying a constant, linear, log or exponential tolerance
+level
+> * Well-documented examples and sample scripts
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/EliseJ/astroABC) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://github.com/EliseJ/astroABC/wiki) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://arxiv.org/abs/1608.07606)
+
 
 ## bmcmc
 
