@@ -12,7 +12,7 @@ body {
 }
 
 section {
-  width:600px;
+  width:550px;
   float:right;
   padding-bottom:50px;
 }
@@ -22,12 +22,6 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
-}
-
-@media print, screen and (max-width: 1500px) {
-  header {
-    padding-right:200px;
-  }
 }
 
 ul.downloads {
