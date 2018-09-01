@@ -3,6 +3,14 @@
 
 @import "{{ site.theme }}";
 
+body {
+  background-color: #fff;
+  padding:10px;
+  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color:#727272;
+  font-weight:400;
+}
+
 ul.downloads {
   list-style:none;
   height:350px;
