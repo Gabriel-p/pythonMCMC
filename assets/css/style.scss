@@ -12,7 +12,7 @@ body {
 }
 
 section {
-  width:600px;
+  width:500px;
   float:right;
   padding-bottom:50px;
 }
@@ -24,9 +24,9 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 1200px) {
   header {
-    padding-right:100px;
+    padding-right:320px;
   }
 }
 
