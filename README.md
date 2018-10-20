@@ -71,10 +71,12 @@ data analysis. It uses an adaptive scheme for automatic tuning of proposal
 distributions. It can also handle hierarchical Bayesian models via
 Metropolis-Within-Gibbs scheme.
 
-* Repo: https://github.com/sanjibs/bmcmc/
-* Docs: https://bmcmc.readthedocs.io/en/latest/
-* Article: [Markov Chain Monte Carlo Methods for Bayesian Data Analysis in
-Astronomy, Sharma (2017)](https://arxiv.org/abs/1706.01629)
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/sanjibs/bmcmc/) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://bmcmc.readthedocs.io) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://arxiv.org/abs/1706.01629)
 
 
 ## CosmoABC
@@ -91,6 +93,17 @@ https://github.com/COINtoolbox/CosmoABC) |
 https://cosmoabc.readthedocs.io) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://arxiv.org/abs/1504.06129)
+
+
+## dynesty
+
+> A Dynamic Nested Sampling package for computing Bayesian posteriors and
+evidences.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/joshspeagle/dynesty) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://dynesty.readthedocs.io/)
 
 
 ## ELFI
@@ -113,7 +126,8 @@ http://www.jmlr.org/papers/v19/17-374.html)
 
 > emcee is an MIT licensed pure-Python implementation of Goodman & Weare’s
 [Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble
-sampler](http://msp.berkeley.edu/camcos/2010/5-1/p04.xhtml)
+sampler](http://msp.berkeley.edu/camcos/2010/5-1/p04.xhtml). It's designed for
+Bayesian parameter estimation and it's really sweet!
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
 https://github.com/dfm/emcee) | 
@@ -146,7 +160,18 @@ with or without time-delay.
 https://github.com/kerguler/hoppMCMC)
 
 
-## [kombine](http://pages.uoregon.edu/bfarr/kombine/index.html)
+## kombine
+
+> kombine is an ensemble sampler built for efficiently exploring multimodal
+distributions. By using estimates of ensemble’s instantaneous distribution as a
+proposal, it achieves very fast burnin, followed by sampling with very short
+autocorrelation times.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/bfarr/kombine) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://pages.uoregon.edu/bfarr/kombine/index.html)
+
 
 ## [MCcubed](http://pcubillos.github.io/MCcubed/)
 
@@ -197,6 +222,23 @@ probability distributions, then ptemcee is your friend.
 * Repo: https://github.com/willvousden/ptemcee
 * Docs: http://ptemcee.readthedocs.io/en/latest/
 
+
+## PTMCMCSampler
+
+https://github.com/jellis18/PTMCMCSampler
+
+
+## ptmpi
+
+https://github.com/chris-n-self/ptmpi (blog entry
+https://chrisdoesscience.wordpress.com/2016/07/17/parallelised-parallel-tempering-with-mpi/)
+
+
+## pyabc
+
+https://github.com/icb-dcm/pyabc
+
+
 ## [PyDREAM](https://github.com/LoLab-VU/PyDREAM)
 
 ## pyhmc
@@ -246,6 +288,11 @@ functionality for summarizing output and for model diagnostics.
 
 ## [py-mcmc](https://pypi.org/project/py-mcmc/)
 
+
+## PyMultiNest
+
+https://github.com/JohannesBuchner/PyMultiNest
+
 ## PyStan
 
 > PyStan provides an interface to Stan, a package for Bayesian inference using
@@ -269,5 +316,11 @@ constructing models.
 ## [simpleabc](https://github.com/rcmorehead/simpleabc)
 
 ## [SPOTPY](https://github.com/thouska/spotpy)
+
+
+## UltraNest
+
+https://github.com/JohannesBuchner/UltraNest
+
 
 ## [XHMC](https://arxiv.org/abs/1601.00225)
