@@ -23,6 +23,7 @@ https://github.com/jakeret/abcpmc) |
 http://abcpmc.readthedocs.org/) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://arxiv.org/abs/1504.07245)
+---
 
 
 ## astroABC
@@ -62,6 +63,7 @@ https://github.com/EliseJ/astroABC) |
 https://github.com/EliseJ/astroABC/wiki) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://arxiv.org/abs/1608.07606)
+---
 
 
 ## bmcmc
@@ -77,6 +79,7 @@ https://github.com/sanjibs/bmcmc/) |
 https://bmcmc.readthedocs.io) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://arxiv.org/abs/1706.01629)
+---
 
 
 ## CosmoABC
