@@ -100,6 +100,8 @@ https://cosmoabc.readthedocs.io) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://arxiv.org/abs/1504.06129)
 
+---
+
 
 ## dynesty
 
@@ -110,6 +112,8 @@ evidences.
 https://github.com/joshspeagle/dynesty) | 
 <img src="./img/docs.png" width="20" height="20"> [Docs](
 https://dynesty.readthedocs.io/)
+
+---
 
 
 ## ELFI
@@ -127,6 +131,8 @@ http://elfi.readthedocs.io/) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 http://www.jmlr.org/papers/v19/17-374.html)
 
+---
+
 
 ## emcee
 
@@ -142,6 +148,8 @@ https://emcee.readthedocs.io) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://arxiv.org/abs/1202.3665)
 
+---
+
 
 ## hmc
 
@@ -149,6 +157,8 @@ https://arxiv.org/abs/1202.3665)
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
 https://github.com/bd-j/hmc)
+
+---
 
 
 ## hoppMCMC
@@ -165,6 +175,8 @@ with or without time-delay.
 <img src="./img/github.png" width="20" height="20"> [Repo](
 https://github.com/kerguler/hoppMCMC)
 
+---
+
 
 ## kombine
 
@@ -178,8 +190,15 @@ https://github.com/bfarr/kombine) |
 <img src="./img/docs.png" width="20" height="20"> [Docs](
 https://pages.uoregon.edu/bfarr/kombine/index.html)
 
+---
 
-## [MCcubed](http://pcubillos.github.io/MCcubed/)
+
+## MCcubed
+
+http://pcubillos.github.io/MCcubed/
+
+---
+
 
 ## Nested Sampling
 
@@ -203,9 +222,22 @@ of phase-change problems which effectively defeat thermal annealing.
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Nested_sampling_algorithm)
 * [Poster comparing with annealing](http://www.mrao.cam.ac.uk/~steve/malta2009/images/nestposter.pdf)
 
-## [nestle](http://kylebarbary.com/nestle/)
+---
 
-## [NUTS](https://github.com/mfouesneau/NUTS)
+
+## nestle
+
+http://kylebarbary.com/nestle/
+
+---
+
+
+## NUTS
+
+https://github.com/mfouesneau/NUTS
+
+---
+
 
 ## pgmpy
 
@@ -218,6 +250,9 @@ of phase-change problems which effectively defeat thermal annealing.
 * Article: [MCMC: Hamiltonian Monte Carlo and No-U-Turn
 Sampler](http://khalibartan.github.io/MCMC-Hamiltonian-Monte-Carlo-and-No-U-Turn-Sampler/)
 
+---
+
+
 ## ptemcee
 
 > ...is a fork of Daniel Foreman-Mackey's wonderful emcee to implement parallel
@@ -228,10 +263,14 @@ probability distributions, then ptemcee is your friend.
 * Repo: https://github.com/willvousden/ptemcee
 * Docs: http://ptemcee.readthedocs.io/en/latest/
 
+---
+
 
 ## PTMCMCSampler
 
 https://github.com/jellis18/PTMCMCSampler
+
+---
 
 
 ## ptmpi
@@ -239,13 +278,22 @@ https://github.com/jellis18/PTMCMCSampler
 https://github.com/chris-n-self/ptmpi (blog entry
 https://chrisdoesscience.wordpress.com/2016/07/17/parallelised-parallel-tempering-with-mpi/)
 
+---
+
 
 ## pyabc
 
 https://github.com/icb-dcm/pyabc
 
+---
 
-## [PyDREAM](https://github.com/LoLab-VU/PyDREAM)
+
+## PyDREAM
+
+https://github.com/LoLab-VU/PyDREAM
+
+---
+
 
 ## pyhmc
 
@@ -261,6 +309,9 @@ such as Metropolis, Gibbs sampling (and derivatives).
 * Repo: https://github.com/rmcgibbo/pyhmc
 * Docs: https://pythonhosted.org/pyhmc/index.html
 
+---
+
+
 ## PyJAGS
 
 > PyJAGS provides a Python interface to JAGS, a program for analysis of
@@ -269,6 +320,9 @@ Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation.
 * Repo: https://github.com/tmiasko/pyjags
 * Docs: https://pyjags.readthedocs.io/en/latest/
 * Blog article: https://martynplummer.wordpress.com/2016/01/11/pyjags/
+
+---
+
 
 ## PyMC3
 
@@ -290,14 +344,29 @@ functionality for summarizing output and for model diagnostics.
 * Examples: https://stats.stackexchange.com/questions/119879/how-to-interpret-autocorrelation-plot-in-mcmc (autocorrelation)
 * Article: [Probabilistic Programming in Python using PyMC, Salvatier et al. (2015)](https://arxiv.org/abs/1507.08050)
 
-## [pymcmc](https://github.com/gmcgoldr/pymcmc)
+---
 
-## [py-mcmc](https://pypi.org/project/py-mcmc/)
+
+## pymcmc
+
+https://github.com/gmcgoldr/pymcmc
+
+---
+
+
+## py-mcmc
+
+https://pypi.org/project/py-mcmc/
+
+---
 
 
 ## PyMultiNest
 
 https://github.com/JohannesBuchner/PyMultiNest
+
+---
+
 
 ## PyStan
 
@@ -307,6 +376,9 @@ the No-U-Turn sampler, a variant of Hamiltonian Monte Carlo.*
 * Stan's homepage: http://mc-stan.org/about/
 * PyStan's homepage: https://pystan.readthedocs.io/en/latest/index.html
 * Examples: https://stats.stackexchange.com/questions/162857/managing-high-autocorrelation-in-mcmc (autocorrelation)
+
+---
+
 
 ## Sampyl
 
@@ -319,14 +391,31 @@ constructing models.
 * Docs: http://matatat.org/sampyl/index.html
 * Example: http://matatat.org/ab-testing-with-sampyl.html
 
-## [simpleabc](https://github.com/rcmorehead/simpleabc)
+---
 
-## [SPOTPY](https://github.com/thouska/spotpy)
+
+## simpleabc
+
+https://github.com/rcmorehead/simpleabc
+
+---
+
+
+## SPOTPY
+
+https://github.com/thouska/spotpy
+
+---
+
 
 
 ## UltraNest
 
 https://github.com/JohannesBuchner/UltraNest
 
+---
 
-## [XHMC](https://arxiv.org/abs/1601.00225)
+
+## XHMC
+
+https://arxiv.org/abs/1601.00225
