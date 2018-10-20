@@ -76,11 +76,38 @@ Metropolis-Within-Gibbs scheme.
 * Article: [Markov Chain Monte Carlo Methods for Bayesian Data Analysis in
 Astronomy, Sharma (2017)](https://arxiv.org/abs/1706.01629)
 
-## [CosmoABC](https://github.com/COINtoolbox/CosmoABC)
 
-## [DNest4](https://github.com/eggplantbren/DNest4)
+## CosmoABC
 
-## [ELFI](https://github.com/elfi-dev/elfi)
+> cosmoabc is a package which enables parameter inference using an Approximate
+Bayesian Computation (ABC) algorithm. The code was originally designed for
+cosmological parameter inference from galaxy clusters number counts based on
+Sunyaev-Zel’dovich measurements. In this context, the cosmological simulations
+were performed using the NumCosmo library .
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/COINtoolbox/CosmoABC) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://cosmoabc.readthedocs.io) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://arxiv.org/abs/1504.06129)
+
+
+## ELFI
+
+> ELFI is a statistical software package written in Python for likelihood-free
+inference (LFI) such as Approximate Bayesian Computation (ABC). The term LFI
+refers to a family of inference methods that replace the use of the likelihood
+function with a data generating simulator function. ELFI features an easy to use
+generative modeling syntax and supports parallelized inference out of the box.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/elfi-dev/elfi) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://elfi.readthedocs.io/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+http://www.jmlr.org/papers/v19/17-374.html)
+
 
 ## emcee
 
@@ -88,18 +115,36 @@ Astronomy, Sharma (2017)](https://arxiv.org/abs/1706.01629)
 [Affine Invariant Markov chain Monte Carlo (MCMC) Ensemble
 sampler](http://msp.berkeley.edu/camcos/2010/5-1/p04.xhtml)
 
-* Docs: http://dfm.io/emcee/current/, https://emcee.readthedocs.io/en/latest/
-* Repo: https://github.com/dfm/emcee
-* Article: [emcee: The MCMC Hammer, Foreman-Mackey et al.
-(2012)](https://arxiv.org/abs/1202.3665)
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/dfm/emcee) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://emcee.readthedocs.io) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://arxiv.org/abs/1202.3665)
+
 
 ## hmc
 
 > A simple Hamiltonian MCMC sampler.
 
-* Repo: https://github.com/bd-j/hmc
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/bd-j/hmc)
 
-## [hoppMCMC](https://github.com/kerguler/hoppMCMC)
+
+## hoppMCMC
+
+> An adaptive basin-hopping Markov-chain Monte Carlo algorithm for Bayesian
+optimisation. Python implementation of the hoppMCMC algorithm aiming to identify
+and sample from the high-probability regions of a posterior distribution. The
+algorithm combines three strategies: (i) parallel MCMC, (ii) adaptive Gibbs
+sampling and (iii) simulated annealing. Overall, hoppMCMC resembles the
+basin-hopping algorithm implemented in the optimize module of scipy, but it is
+developed for a wide range of modelling approaches including stochastic models
+with or without time-delay.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/kerguler/hoppMCMC)
+
 
 ## [kombine](http://pages.uoregon.edu/bfarr/kombine/index.html)
 
