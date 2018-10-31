@@ -428,17 +428,16 @@ core model specification and fitting functionality, PyMC3 includes
 functionality for summarizing output and for model diagnostics.
 
 * Tutorials:
-  1. [Bayesian Modelling in Python]
-  (https://github.com/markdregan/Bayesian-Modelling-in-Python)
+  1. [Bayesian Modelling in Python](https://github.com/markdregan/
+Bayesian-Modelling-in-Python)
   1. [Using PyMC3](http://people.duke.edu/~ccc14/sta-663-2017/19A_PyMC3.html)
-  1. [Tutorial 5a: Parameter estimation with Markov chain Monte Carlo]
-  (http://bebi103.caltech.edu.s3-website-us-east-1.amazonaws.com/2017/tutorials/t5a_mcmc.html)
+  1. [Tutorial 5a: Parameter estimation with Markov chain Monte Carlo](http://
+bebi103.caltech.edu.s3-website-us-east-1.amazonaws.com/2017/tutorials/
+t5a_mcmc.html)
 * Books:
-  1. [Bayesian Methods for Hackers]
- (https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers),
-  1. [Statistical Rethinking with Python and PyMC3]
-  (https://github.com/aloctavodia/Statistical-Rethinking-with-Python-and-PyMC3)
-
+  1. [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/
+Probabilistic-Programming-and-Bayesian-Methods-for-Hackers),
+  1. [Statistical Rethinking with Python and PyMC3](https://github.com/aloctavodia/Statistical-Rethinking-with-Python-and-PyMC3)
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
 https://github.com/pymc-devs/pymc3) | 
