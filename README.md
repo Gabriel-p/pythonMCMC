@@ -386,17 +386,19 @@ https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2011WR010608)
 
 ## pyhmc
 
-> Hamiltonian Monte Carlo or Hybrid Monte Carlo (HMC) is a Markov chain Monte
-Carlo (MCMC) algorithm. Hamiltonian dynamics can be used to produce distant
-proposals for the Metropolis algorithm, thereby avoiding the slow exploration
-of the state space that results from the diffusive behaviour of simple
-random-walk proposals. It does this by taking a series of steps informed by
-first-order gradient information. This feature allows it to converge much more
-quickly to high-dimensional target distributions compared to simpler methods
-such as Metropolis, Gibbs sampling (and derivatives).
+> This package is a straight-forward port of the functions `hmc2.m` and
+`hmc2_opt.m` from the MCMCstuff matlab toolbox written by Aki Vehtari. The code
+is originally based on the functions hmc.m from the netlab toolbox written by
+Ian T Nabney. The portion of algorithm involving "windows" is derived from the C
+code for this function included in the Software for Flexible Bayesian Modeling
+written by Radford Neal.
 
-* Repo: https://github.com/rmcgibbo/pyhmc
-* Docs: https://pythonhosted.org/pyhmc/index.html
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/rmcgibbo/pyhmc) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://pythonhosted.org/pyhmc/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://arxiv.org/abs/1206.1901v1)
 
 ---
 
@@ -406,9 +408,12 @@ such as Metropolis, Gibbs sampling (and derivatives).
 > PyJAGS provides a Python interface to JAGS, a program for analysis of
 Bayesian hierarchical models using Markov Chain Monte Carlo (MCMC) simulation.
 
-* Repo: https://github.com/tmiasko/pyjags
-* Docs: https://pyjags.readthedocs.io/en/latest/
-* Blog article: https://martynplummer.wordpress.com/2016/01/11/pyjags/
+* [Blog article](https://martynplummer.wordpress.com/2016/01/11/pyjags/)
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/tmiasko/pyjags) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://pyjags.readthedocs.io)
 
 ---
 
@@ -422,16 +427,25 @@ and extensibility make it applicable to a large suite of problems. Along with
 core model specification and fitting functionality, PyMC3 includes
 functionality for summarizing output and for model diagnostics.
 
-* Docs: http://docs.pymc.io/intro.html
-* Repo: https://github.com/pymc-devs/pymc3
 * Tutorials:
-  1. [Bayesian Modelling in Python](https://github.com/markdregan/Bayesian-Modelling-in-Python)
+  1. [Bayesian Modelling in Python]
+  (https://github.com/markdregan/Bayesian-Modelling-in-Python)
   1. [Using PyMC3](http://people.duke.edu/~ccc14/sta-663-2017/19A_PyMC3.html)
-  1. [Tutorial 5a: Parameter estimation with Markov chain Monte Carlo](http://bebi103.caltech.edu.s3-website-us-east-1.amazonaws.com/2017/tutorials/t5a_mcmc.html)
-* Recommended book: [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
-* Recommended book: [Statistical Rethinking with Python and PyMC3](https://github.com/aloctavodia/Statistical-Rethinking-with-Python-and-PyMC3)
-* Examples: https://stats.stackexchange.com/questions/119879/how-to-interpret-autocorrelation-plot-in-mcmc (autocorrelation)
-* Article: [Probabilistic Programming in Python using PyMC, Salvatier et al. (2015)](https://arxiv.org/abs/1507.08050)
+  1. [Tutorial 5a: Parameter estimation with Markov chain Monte Carlo]
+  (http://bebi103.caltech.edu.s3-website-us-east-1.amazonaws.com/2017/tutorials/t5a_mcmc.html)
+* Books:
+  1. [Bayesian Methods for Hackers]
+ (https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers),
+  1. [Statistical Rethinking with Python and PyMC3]
+  (https://github.com/aloctavodia/Statistical-Rethinking-with-Python-and-PyMC3)
+
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/pymc-devs/pymc3) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://docs.pymc.io/intro.html) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://arxiv.org/abs/1507.08050)
 
 ---
 
