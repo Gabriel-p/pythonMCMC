@@ -195,32 +195,57 @@ https://pages.uoregon.edu/bfarr/kombine/index.html)
 
 ## MCcubed
 
-http://pcubillos.github.io/MCcubed/
+> Powerful Bayesian-statistics tool that offers:
+>
+> * Levenberg-Marquardt least-squares optimization.
+> * Markov-chain Monte Carlo (MCMC) posterior-distribution sampling following
+the:
+>   * Metropolis-Hastings algorithm with Gaussian proposal distribution,
+>   * Differential-Evolution MCMC (DEMC), or
+>   * DEMCzs (Snooker).
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/pcubillos/MCcubed) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://pcubillos.github.io/MCcubed/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+http://adsabs.harvard.edu/abs/2017AJ....153....3C)
 
 ---
 
 
 ## Nested Sampling
 
-> Nested sampling estimates directly how the likelihood function relates to
-prior mass. The evidence (alternatively the marginal likelihood, marginal
-density of the data, or the prior predictive) is immediately obtained by
-summation. It is the prime result of the computation, and is accompanied by an
-estimate of numerical uncertainty. Samples from the posterior distribution are
-an optional by-product, obtainable for any temperature. The method relies on
-sampling within a hard constraint on likelihood value, as opposed to the
-softened likelihood of annealing methods. Progress depends only on the shape of
-the "nested" contours of likelihood, and not on the likelihood values. This
-invariance (over monotonic re-labelling) allows the method to deal with a class
-of phase-change problems which effectively defeat thermal annealing.
+> Flexible and efficient Python implementation of the nested sampling algorithm.
+This implementation is geared towards allowing statistical physicists to use
+this method for thermodynamic analysis but is also being used by
+astrophysicists.
+>
+> This implementation uses the language of statistical mechanics (partition
+function, phase space, configurations, energy, density of states) rather than
+the language of Bayesian sampling (likelihood, prior, evidence). This is simply
+for convenience, the method is the same.
+>
+> The package goes beyond the bare implementation of the method providing:
+>
+>* built-in parallelisation on single computing node (max total number of cpu
+threads on a single machine)
+>* built-in Pyro4-based parallelisation by distributed computing, ideal to run
+calculations on a cluster or across a network
+>* ability to save and restart from checkpoint binary files, ideal for very
+long calculations
+>* scripts to compute heat capacities and perform error analysis
+integration with the MCpele package to implement efficient Monte Carlo walkers.
 
 * [Official site](http://www.inference.phy.cam.ac.uk/bayesys/)
-* Repo: https://github.com/js850/nested_sampling
-* Docs: http://js850.github.io/nested_sampling/
-* Original article: [Nested sampling for general Bayesian computation, John Skilling (2006)](http://projecteuclid.org/euclid.ba/1340370944)
-* Article where the algorithm is used: [A Galaxy Model from 2MASS Star Counts in the Whole Sky Including the Plane; Polido, Jablonski & Lépine (2013)](http://arxiv.org/abs/1308.6238)
-* [Wikipedia entry](https://en.wikipedia.org/wiki/Nested_sampling_algorithm)
-* [Poster comparing with annealing](http://www.mrao.cam.ac.uk/~steve/malta2009/images/nestposter.pdf)
+* [Compared to annealing](http://www.mrao.cam.ac.uk/~steve/malta2009/images/nestposter.pdf)
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/js850/nested_sampling) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://js850.github.io/nested_sampling/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+http://projecteuclid.org/euclid.ba/1340370944)
 
 ---
 
