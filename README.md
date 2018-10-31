@@ -193,9 +193,10 @@ https://pages.uoregon.edu/bfarr/kombine/index.html)
 ---
 
 
-## MCcubed
+## MC3
 
-> Powerful Bayesian-statistics tool that offers:
+> Multi-Core Markov-Chain Monte Carlo (MC3) is a powerful Bayesian-statistics
+tool that offers:
 >
 > * Levenberg-Marquardt least-squares optimization.
 > * Markov-chain Monte Carlo (MCMC) posterior-distribution sampling following
@@ -250,16 +251,36 @@ http://projecteuclid.org/euclid.ba/1340370944)
 ---
 
 
-## nestle
+## Nestle
 
-http://kylebarbary.com/nestle/
+> Pure Python, MIT-licensed implementation of nested sampling algorithms.
+> Nested Sampling is a computational approach for integrating posterior
+probability in order to compare models in Bayesian statistics. It is similar to
+Markov Chain Monte Carlo (MCMC) in that it generates samples that can be used to
+estimate the posterior probability distribution. Unlike MCMC, the nature of the
+sampling also allows one to calculate the integral of the distribution. It also
+happens to be a pretty good method for robustly finding global maxima.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/kbarbary/nestle) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://kylebarbary.com/nestle/)
 
 ---
 
 
 ## NUTS
 
-https://github.com/mfouesneau/NUTS
+> No-U-Turn Sampler (NUTS) for python
+> This package implements the No-U-Turn Sampler (NUTS) algorithm 6 from the NUTS
+paper (Hoffman & Gelman, 2011).
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/mfouesneau/NUTS) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://js850.github.io/nested_sampling/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://arxiv.org/abs/1111.4246)
 
 ---
 
