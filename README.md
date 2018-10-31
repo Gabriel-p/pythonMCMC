@@ -287,56 +287,99 @@ https://arxiv.org/abs/1111.4246)
 
 ## pgmpy
 
-> pgmpy is a python library for working with Probabilistic Graphical Models.
+> Python library for working with Probabilistic Graphical Models.
 
-* Repo: https://github.com/pgmpy/pgmpy
-* Docs (and list of algorithms supported): http://pgmpy.org/
-* Examples: https://github.com/pgmpy/pgmpy/tree/dev/examples
-* Basic tutorial: https://github.com/pgmpy/pgmpy_notebook
-* Article: [MCMC: Hamiltonian Monte Carlo and No-U-Turn
-Sampler](http://khalibartan.github.io/MCMC-Hamiltonian-Monte-Carlo-and-No-U-Turn-Sampler/)
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/pgmpy/pgmpy) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://pgmpy.org/)
 
 ---
 
 
 ## ptemcee
 
-> ...is a fork of Daniel Foreman-Mackey's wonderful emcee to implement parallel
+> Fork of Daniel Foreman-Mackey's emcee to implement parallel
 tempering more robustly. As far as possible, it is designed as a drop-in
 replacement for emcee. If you're trying to characterise awkward, multi-modal
 probability distributions, then ptemcee is your friend.
 
-* Repo: https://github.com/willvousden/ptemcee
-* Docs: http://ptemcee.readthedocs.io/en/latest/
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/willvousden/ptemcee) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://ptemcee.readthedocs.io) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://arxiv.org/abs/1501.05823)
 
 ---
 
 
 ## PTMCMCSampler
 
-https://github.com/jellis18/PTMCMCSampler
+> MPI enabled Parallel Tempering MCMC code written in Python.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/jellis18/PTMCMCSampler) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://jellis18.github.io/PTMCMCSampler/)
 
 ---
 
 
 ## ptmpi
 
-https://github.com/chris-n-self/ptmpi (blog entry
-https://chrisdoesscience.wordpress.com/2016/07/17/parallelised-parallel-tempering-with-mpi/)
+> Python class that coordinates an MPI implementation of parallel tempering.
+> Supports a fully parallelised implementation of parallel tempering using
+mpi4py (message passing interface for python). Each replica runs as a separate
+parallel process and they communicate via an mpi4py object. To minimise message
+passing the replicas stay in place and only the temperatures are exchanged
+between the processes. It is this exchange of temperatures that ptmpi handles.
+
+* [Blog entry](https://chrisdoesscience.wordpress.com/2016/07/17/parallelised-parallel-tempering-with-mpi/)
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/chris-n-self/ptmpi) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://jellis18.github.io/PTMCMCSampler/)
 
 ---
 
 
 ## pyabc
 
-https://github.com/icb-dcm/pyabc
+> pyABC is a framework for distributed, likelihood-free inference. That means,
+if you have a model and some data and want to know the posterior distribution
+over the model parameters, i.e. you want to know with which probability which
+parameters explain the observed data, then pyABC might be for you.
+>
+> All you need is some way to numerically draw samples from the model, given the
+model parameters. pyABC “inverts” the model for you and tells you which
+parameters were well matching and which ones not. You do not need to
+analytically calculate the likelihood function.
+>
+> pyABC runs efficiently on multi-core machines and distributed cluster setups.
+It is easy to use and flexibly extensible.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/icb-dcm/pyabc) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://pyabc.readthedocs.io/en/latest/index.html) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://www.biorxiv.org/content/early/2017/07/17/162552)
 
 ---
 
 
 ## PyDREAM
 
-https://github.com/LoLab-VU/PyDREAM
+> A Python implementation of the MT-DREAM(ZS) algorithm.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/LoLab-VU/PyDREAM) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://pydream.readthedocs.io/en/latest/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2011WR010608)
 
 ---
 
