@@ -436,8 +436,9 @@ bebi103.caltech.edu.s3-website-us-east-1.amazonaws.com/2017/tutorials/
 t5a_mcmc.html)
 * Books:
   1. [Bayesian Methods for Hackers](https://github.com/CamDavidsonPilon/
-Probabilistic-Programming-and-Bayesian-Methods-for-Hackers),
-  1. [Statistical Rethinking with Python and PyMC3](https://github.com/aloctavodia/Statistical-Rethinking-with-Python-and-PyMC3)
+Probabilistic-Programming-and-Bayesian-Methods-for-Hackers)
+  1. [Statistical Rethinking with Python and PyMC3](https://github.com/
+aloctavodia/Statistical-Rethinking-with-Python-and-PyMC3)
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
 https://github.com/pymc-devs/pymc3) | 
@@ -449,23 +450,60 @@ https://arxiv.org/abs/1507.08050)
 ---
 
 
-## pymcmc
+## PyMCMC
 
-https://github.com/gmcgoldr/pymcmc
+> Simple implementation of the Metropolis-Hastings algorithm for Markov Chain
+Monte Carlo sampling of multidimensional spaces.
+> The implementation is minimalistic. All that is required is a funtion which
+accepts an iterable of parameter values, and returns the positive log likelihood
+at that point.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/gmcgoldr/pymcmc)
 
 ---
 
 
 ## py-mcmc
 
-https://pypi.org/project/py-mcmc/
+> A simple MCMC framework for training Gaussian processes adding functionality
+to GPy.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/PredictiveScienceLab/py-mcmc)
 
 ---
 
 
 ## PyMultiNest
 
-https://github.com/JohannesBuchner/PyMultiNest
+> MultiNest is a program and a sampling technique. As a Bayesian inference
+technique, it allows parameter estimation and model selection. Recently,
+MultiNest added Importance Nested Sampling which is now also supported.
+> The efficient Monte Carlo algorithm for sampling the parameter space is based
+on nested sampling and the idea of disjoint multi-dimensional ellipse sampling.
+> For the scientific community, where Python is becoming the new lingua franca 
+(luckily), I provide an interface to MultiNest.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/JohannesBuchner/PyMultiNest) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://johannesbuchner.github.io/PyMultiNest/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+http://www.aanda.org/articles/aa/abs/2014/04/aa22971-13/aa22971-13.html)
+
+---
+
+
+## pysmc
+
+> pysmc is a Python package for sampling complicated probability densities using
+the celebrated Sequential Monte Carlo method.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/PredictiveScienceLab/pysmc) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://predictivesciencelab.github.io/pysmc/)
 
 ---
 
