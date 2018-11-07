@@ -510,12 +510,14 @@ http://predictivesciencelab.github.io/pysmc/)
 
 ## PyStan
 
-> PyStan provides an interface to Stan, a package for Bayesian inference using
-the No-U-Turn sampler, a variant of Hamiltonian Monte Carlo.*
+> PyStan provides an interface to [Stan](http://mc-stan.org/), a package for
+Bayesian inference using the No-U-Turn sampler, a variant of Hamiltonian
+Monte Carlo.
 
-* Stan's homepage: http://mc-stan.org/about/
-* PyStan's homepage: https://pystan.readthedocs.io/en/latest/index.html
-* Examples: https://stats.stackexchange.com/questions/162857/managing-high-autocorrelation-in-mcmc (autocorrelation)
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/stan-dev/pystan) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://pystan.readthedocs.io)
 
 ---
 
@@ -527,23 +529,37 @@ samplers in Python. It’s designed for use in Bayesian parameter estimation
 and provides a collection of distribution log-likelihoods for use in
 constructing models.
 
-* Repo: https://github.com/mcleonard/sampyl/
-* Docs: http://matatat.org/sampyl/index.html
-* Example: http://matatat.org/ab-testing-with-sampyl.html
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/mcleonard/sampyl/) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://matatat.org/sampyl/index.html)
 
 ---
 
 
 ## simpleabc
 
-https://github.com/rcmorehead/simpleabc
+> A Python package for Approximate Bayesian Computation.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/rcmorehead/simpleabc)
 
 ---
 
 
 ## SPOTPY
 
-https://github.com/thouska/spotpy
+> A Statistical Parameter Optimization Tool for Python.
+> SPOTPY is a Python framework that enables the use of Computational
+optimization techniques for calibration, uncertainty and sensitivity analysis
+techniques of almost every (environmental-) model. 
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/thouska/spotpy) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://fb09-pasig.umwelt.uni-giessen.de/spotpy/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0145180)
 
 ---
 
@@ -551,11 +567,23 @@ https://github.com/thouska/spotpy
 
 ## UltraNest
 
-https://github.com/JohannesBuchner/UltraNest
+> Nested Sampling Development Framework & UltraNest
+> A Pythonic implementation of the Nested Sampling integration algorithm for
+Bayesian model comparison and parameter estimation. This package provides
+multiple implementations for constrained drawing functions, and a test suite to
+evaluate the correctness, accuracy and efficiency of various implementations.
+> The source code consists of three components:
+>
+>* A Modular framework for nested sampling algorithms (nested_sampling) and
+their development
+>* Test framework to evaluate the performance and accuracy of algorithms 
+(testsuite)
+>* UltraNest - A fast C implementation of a mixed RadFriends/MCMC nested
+sampling algorithm
 
----
-
-
-## XHMC
-
-https://arxiv.org/abs/1601.00225
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/JohannesBuchner/UltraNest) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://johannesbuchner.github.io/UltraNest/ultranest/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://link.springer.com/article/10.1007/s11222-014-9512-y)
