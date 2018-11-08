@@ -87,11 +87,11 @@ https://arxiv.org/abs/1706.01629)
 
 ## CosmoABC
 
-> cosmoabc is a package which enables parameter inference using an Approximate
+> Package which enables parameter inference using an Approximate
 Bayesian Computation (ABC) algorithm. The code was originally designed for
 cosmological parameter inference from galaxy clusters number counts based on
 Sunyaev-Zel’dovich measurements. In this context, the cosmological simulations
-were performed using the NumCosmo library .
+were performed using the NumCosmo library.
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
 https://github.com/COINtoolbox/CosmoABC) | 
@@ -99,6 +99,16 @@ https://github.com/COINtoolbox/CosmoABC) |
 https://cosmoabc.readthedocs.io) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://arxiv.org/abs/1504.06129)
+
+---
+
+
+## CPnest
+
+> Parallel nested sampling in python.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/johnveitch/cpnest)
 
 ---
 
