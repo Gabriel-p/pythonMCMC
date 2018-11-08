@@ -14,6 +14,7 @@ body {
 section {
   width:550px;
   float:right;
+  padding-left:10px;
   padding-bottom:50px;
 }
 
@@ -22,7 +23,7 @@ ul.downloads {
   height:450px; /* This line makes the green container larger */
   background: #f4f4f4;
   border-radius:10px;
-  width:300px; /* This line makes the green container wider */
+  width:295px; /* This line makes the green container wider */
 }
 
 .downloads li {
