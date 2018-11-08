@@ -103,7 +103,7 @@ https://arxiv.org/abs/1504.06129)
 ---
 
 
-## CPnest
+## CPNest
 
 > Parallel nested sampling in python.
 
