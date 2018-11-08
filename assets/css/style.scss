@@ -5,7 +5,7 @@
 
 body {
   background-color: #fff;
-  padding:30px;
+  padding:30px;/* Top padding? */
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
@@ -22,7 +22,7 @@ ul.downloads {
   height:450px; /* This line makes the green container larger */
   background: #f4f4f4;
   border-radius:10px;
-  width:290px; /* This line makes the green container wider */
+  width:300px; /* This line makes the green container wider */
 }
 
 .downloads li {
