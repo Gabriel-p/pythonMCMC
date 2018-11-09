@@ -126,6 +126,22 @@ https://dynesty.readthedocs.io/)
 ---
 
 
+## Edward2
+
+> Edward2 is a probabilistic programming language in TensorFlow and Python. It
+extends the TensorFlow ecosystem so that one can declare models as probabilistic
+programs and manipulate a model's computation for flexible training, latent
+variable inference, and predictions.
+
+* Original project: [Edward](http://edwardlib.org/) ([Tran et al.
+(2016)](https://arxiv.org/abs/1610.09787))
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/tensorflow/probability/tree/master/tensorflow_probability/python/edward2)
+
+---
+
+
 ## ELFI
 
 > ELFI is a statistical software package written in Python for likelihood-free
