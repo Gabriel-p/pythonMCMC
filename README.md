@@ -108,7 +108,9 @@ https://arxiv.org/abs/1504.06129)
 > Parallel nested sampling in python.
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
-https://github.com/johnveitch/cpnest)
+https://github.com/johnveitch/cpnest) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://johnveitch.github.io/cpnest/)
 
 ---
 
