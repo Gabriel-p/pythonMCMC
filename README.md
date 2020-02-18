@@ -417,9 +417,7 @@ https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2011WR010608)
 > This package is a straight-forward port of the functions `hmc2.m` and
 `hmc2_opt.m` from the MCMCstuff matlab toolbox written by Aki Vehtari. The code
 is originally based on the functions hmc.m from the netlab toolbox written by
-Ian T Nabney. The portion of algorithm involving "windows" is derived from the C
-code for this function included in the Software for Flexible Bayesian Modeling
-written by Radford Neal.
+Ian T Nabney. The portion of algorithm involving "windows" is derived from the C code for this function included in the Software for Flexible Bayesian Modeling written by Radford Neal.
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
 https://github.com/rmcgibbo/pyhmc) | 
@@ -525,8 +523,7 @@ http://www.aanda.org/articles/aa/abs/2014/04/aa22971-13/aa22971-13.html)
 
 ## pysmc
 
-> pysmc is a Python package for sampling complicated probability densities using
-the celebrated Sequential Monte Carlo method.
+> pysmc is a Python package for sampling complicated probability densities using the celebrated Sequential Monte Carlo method.
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
 https://github.com/PredictiveScienceLab/pysmc) | 
@@ -592,7 +589,6 @@ https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0145180)
 ---
 
 
-
 ## UltraNest
 
 > Nested Sampling Development Framework & UltraNest
@@ -615,3 +611,22 @@ https://github.com/JohannesBuchner/UltraNest) |
 https://johannesbuchner.github.io/UltraNest/ultranest/) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://link.springer.com/article/10.1007/s11222-014-9512-y)
+
+---
+
+
+## Zeus
+
+> zeus is a pure-Python implementation of the Ensemble Slice Sampling method.
+> >
+> * Fast & Robust Bayesian Inference,
+> * No hand-tuning,
+> * Excellent performance in terms of autocorrelation time and convergence rate,
+> * Scale to multiple CPUs without any extra effort.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/minaskar/zeus) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://zeus-mcmc.readthedocs.io/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://ui.adsabs.harvard.edu/abs/2020arXiv200206212K/abstract)
