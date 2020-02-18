@@ -618,7 +618,7 @@ https://link.springer.com/article/10.1007/s11222-014-9512-y)
 ## Zeus
 
 > zeus is a pure-Python implementation of the Ensemble Slice Sampling method.
-> >
+>
 > * Fast & Robust Bayesian Inference,
 > * No hand-tuning,
 > * Excellent performance in terms of autocorrelation time and convergence rate,
