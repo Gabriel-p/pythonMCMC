@@ -107,9 +107,9 @@ https://arxiv.org/abs/1608.07606)
 >
 > A-NICE-MC stands for Adversarial Non-linear Independent Component Estimation Monte Carlo, in that:
 >
-> *The framework utilizes a parametric proposal for Markov Chain Monte Carlo (MC).
-> *The proposal is represented through Non-linear Independent Component Estimation (NICE).
-> *The NICE network is trained through adversarial methods (A); see [jiamings/markov-chain-gan](https://github.com/jiamings/markov-chain-gan).
+> * The framework utilizes a parametric proposal for Markov Chain Monte Carlo (MC).
+> * The proposal is represented through Non-linear Independent Component Estimation (NICE).
+> * The NICE network is trained through adversarial methods (A); see [jiamings/markov-chain-gan](https://github.com/jiamings/markov-chain-gan).
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
 https://github.com/ermongroup/a-nice-mc) | 
@@ -543,6 +543,24 @@ https://github.com/gmcgoldr/pymcmc)
 
 ## py-mcmc
 
+> A python module implementing some generic MCMC routines. The main purpose of this module is to serve as a simple MCMC framework for generic models. Probably the most useful contribution at the moment, is that it can be used to train Gaussian process (GP) models implemented in the [GPy package](http://sheffieldml.github.io/GPy/).
+>
+> The code features the following things at the moment:
+>
+> * Fully object oriented. The models can be of any type as soon as they offer the right interface.
+> * Random walk proposals.
+> * Metropolis Adjusted Langevin Dynamics.
+> * The MCMC chains are stored in fast HDF5 format using PyTables.
+> * A mean function can be added to the (GP) models of the GPy package.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/PredictiveScienceLab/py-mcmc)
+
+---
+
+
+## pymcmcstat
+
 > The pymcmcstat package is a Python program for running Markov Chain Monte Carlo (MCMC) simulations. Included in this package is the ability to use different Metropolis based sampling techniques:
 >
 > * Metropolis-Hastings (MH): Primary sampling method.
@@ -553,18 +571,7 @@ https://github.com/gmcgoldr/pymcmc)
 > This package is an adaptation of the MATLAB toolbox [mcmcstat](http://helios.fmi.fi/~lainema/mcmc/). 
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
-https://github.com/prmiles/pymcmcstat)
-
----
-
-
-## pymcmcstat
-
-> A simple MCMC framework for training Gaussian processes adding functionality
-to GPy.
-
-<img src="./img/github.png" width="20" height="20"> [Repo](
-https://github.com/PredictiveScienceLab/py-mcmc) | 
+https://github.com/prmiles/pymcmcstat) | 
 <img src="./img/docs.png" width="20" height="20"> [Docs](
 https://pymcmcstat.readthedocs.io/en/latest/) |
 <img src="./img/art.png" width="20" height="20"> [Article](
