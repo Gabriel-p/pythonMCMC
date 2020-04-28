@@ -157,6 +157,7 @@ https://arxiv.org/abs/1504.06129)
 ## CPNest
 
 > Parallel nested sampling in python.
+> CPNest is a python package for performing Bayesian inference using the nested sampling algorithm. It is designed to be simple for the user to provide a model via a set of parameters, their bounds and a log-likelihood function. An optional log-prior function can be given for non-uniform prior distributions.
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
 https://github.com/johnveitch/cpnest) | 
@@ -174,7 +175,9 @@ evidences.
 <img src="./img/github.png" width="20" height="20"> [Repo](
 https://github.com/joshspeagle/dynesty) | 
 <img src="./img/docs.png" width="20" height="20"> [Docs](
-https://dynesty.readthedocs.io/)
+https://dynesty.readthedocs.io/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://arxiv.org/abs/1904.02180)
 
 ---
 
