@@ -27,6 +27,39 @@ https://arxiv.org/abs/1504.07245)
 ---
 
 
+## ABCpy
+
+> ABCpy is a scientific library written in Python for Bayesian uncertainty quantification in absence of likelihood function, which parallelizes existing approximate Bayesian computation (ABC) algorithms and other likelihood-free inference schemes. It presently includes:
+>
+> * RejectionABC
+> * PMCABC (Population Monte Carlo ABC)
+> * SMCABC (Sequential Monte Carlo ABC)
+> * RSMCABC (Replenishment SMC-ABC)
+> * APMCABC (Adaptive Population Monte Carlo ABC)
+> * SABC (Simulated Annealing ABC)
+> * ABCsubsim (ABC using subset simulation)
+> * PMC (Population Monte Carlo) using approximations of likelihood functions
+> * Random Forest Model Selection Scheme
+> * Semi-automatic summary selection (with Neural networks)
+> * summary selection using distance learning (with Neural networks)
+> 
+> ABCpy addresses the needs of domain scientists and data scientists by providing
+>
+> * a fully modularized framework that is easy to use and easy to extend,
+> * a quick way to integrate your generative model into the framework (from C++, R etc.) and
+> * a non-intrusive, user-friendly way to parallelize inference computations (for your laptop to clusters, supercomputers and AWS)
+> * an intuitive way to perform inference on hierarchical models or more generally on Bayesian networks
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/eth-cscs/abcpy) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://abcpy.readthedocs.io/en/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://arxiv.org/abs/1711.04694)
+
+---
+
+
 ## astroABC
 
 > astroABC is a Python implementation of an Approximate Bayesian Computation
@@ -64,6 +97,24 @@ https://github.com/EliseJ/astroABC) |
 https://github.com/EliseJ/astroABC/wiki) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://arxiv.org/abs/1608.07606)
+
+---
+
+
+## A-NICE-MC
+
+> A-NICE-MC is a framework that trains a parametric Markov Chain Monte Carlo proposal. It achieves higher performance than traditional nonparametric proposals, such as Hamiltonian Monte Carlo (HMC).
+>
+> A-NICE-MC stands for Adversarial Non-linear Independent Component Estimation Monte Carlo, in that:
+>
+> *The framework utilizes a parametric proposal for Markov Chain Monte Carlo (MC).
+> *The proposal is represented through Non-linear Independent Component Estimation (NICE).
+> *The NICE network is trained through adversarial methods (A); see [jiamings/markov-chain-gan](https://github.com/jiamings/markov-chain-gan).
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/ermongroup/a-nice-mc) | 
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://arxiv.org/abs/1706.07561)
 
 ---
 
@@ -492,11 +543,32 @@ https://github.com/gmcgoldr/pymcmc)
 
 ## py-mcmc
 
+> The pymcmcstat package is a Python program for running Markov Chain Monte Carlo (MCMC) simulations. Included in this package is the ability to use different Metropolis based sampling techniques:
+>
+> * Metropolis-Hastings (MH): Primary sampling method.
+> * Adaptive-Metropolis (AM): Adapts covariance matrix at specified intervals.
+> * Delayed-Rejection (DR): Delays rejection by sampling from a narrower distribution. Capable of n-stage delayed rejection.
+> * Delayed Rejection Adaptive Metropolis (DRAM): DR + AM
+>
+> This package is an adaptation of the MATLAB toolbox [mcmcstat](http://helios.fmi.fi/~lainema/mcmc/). 
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/prmiles/pymcmcstat)
+
+---
+
+
+## pymcmcstat
+
 > A simple MCMC framework for training Gaussian processes adding functionality
 to GPy.
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
-https://github.com/PredictiveScienceLab/py-mcmc)
+https://github.com/PredictiveScienceLab/py-mcmc) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://pymcmcstat.readthedocs.io/en/latest/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://joss.theoj.org/papers/10.21105/joss.01417)
 
 ---
 
