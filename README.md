@@ -136,6 +136,18 @@ https://arxiv.org/abs/1706.01629)
 ---
 
 
+## CheKiPEUQ
+
+> CheKiPEUQ is a pythonMCMC code for Parameter estimation for complex physical problems. The CheKiPEUQ software provides tools for finding physically realistic parameter estimates, graphs of the parameter estimate positions within parameter space, and plots of the final simulation results.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/AdityaSavara/CheKiPEUQ) | 
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://doi.org/10.1002/cctc.202000953)
+
+---
+
+
 ## CosmoABC
 
 > Package which enables parameter inference using an Approximate
