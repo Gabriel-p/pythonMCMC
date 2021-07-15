@@ -179,18 +179,6 @@ https://johnveitch.github.io/cpnest/)
 ---
 
 
-## dyPolyChord
-
-> dyPolyChord implements dynamic nested sampling using the efficient PolyChord sampler to provide state-of-the-art nested sampling performance. Any likelihoods and priors which work with PolyChord can be used (Python, C++ or Fortran), and the output files produced are in the PolyChord format.
-
-<img src="./img/github.png" width="20" height="20"> [Repo](
-https://github.com/ejhigson/dyPolyChord) | 
-<img src="./img/docs.png" width="20" height="20"> [Docs](
-https://dypolychord.readthedocs.io/en/)
-
----
-
-
 ## dynesty
 
 > A Dynamic Nested Sampling package for computing Bayesian posteriors and
@@ -202,6 +190,18 @@ https://github.com/joshspeagle/dynesty) |
 https://dynesty.readthedocs.io/) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://arxiv.org/abs/1904.02180)
+
+---
+
+
+## dyPolyChord
+
+> dyPolyChord implements dynamic nested sampling using the efficient PolyChord sampler to provide state-of-the-art nested sampling performance. Any likelihoods and priors which work with PolyChord can be used (Python, C++ or Fortran), and the output files produced are in the PolyChord format.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/ejhigson/dyPolyChord) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://dypolychord.readthedocs.io/en/)
 
 ---
 
@@ -676,7 +676,7 @@ the process of finding parameters of a simulator from observations. sbi takes a 
 <img src="./img/github.png" width="20" height="20"> [Repo](
 https://github.com/mackelab/sbi/) | 
 <img src="./img/docs.png" width="20" height="20"> [Docs](
-https://www.mackelab.org/sbi/)
+https://www.mackelab.org/sbi/) | 
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://doi.org/10.21105/joss.02505)
 
