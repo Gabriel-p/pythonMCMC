@@ -179,6 +179,18 @@ https://johnveitch.github.io/cpnest/)
 ---
 
 
+## dyPolyChord
+
+> dyPolyChord implements dynamic nested sampling using the efficient PolyChord sampler to provide state-of-the-art nested sampling performance. Any likelihoods and priors which work with PolyChord can be used (Python, C++ or Fortran), and the output files produced are in the PolyChord format.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/ejhigson/dyPolyChord) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://dypolychord.readthedocs.io/en/)
+
+---
+
+
 ## dynesty
 
 > A Dynamic Nested Sampling package for computing Bayesian posteriors and
@@ -205,7 +217,7 @@ variable inference, and predictions.
 (2016)](https://arxiv.org/abs/1610.09787))
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
-https://github.com/tensorflow/probability/tree/master/tensorflow_probability/python/edward2)
+https://github.com/google/edward2)
 
 ---
 
@@ -656,6 +668,21 @@ http://matatat.org/sampyl/index.html)
 ---
 
 
+## sbi
+
+> PyTorch package for simulation-based inference. Simulation-based inference is
+the process of finding parameters of a simulator from observations. sbi takes a Bayesian approach and returns a full posterior distribution over the parameters, conditional on the observations. This posterior can be amortized (i.e. useful for any observation) or focused (i.e. tailored to a particular observation), with different computational trade-offs.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/mackelab/sbi/) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://www.mackelab.org/sbi/)
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://doi.org/10.21105/joss.02505)
+
+---
+
+
 ## simpleabc
 
 > A Python package for Approximate Bayesian Computation.
@@ -723,4 +750,4 @@ https://github.com/minaskar/zeus) |
 <img src="./img/docs.png" width="20" height="20"> [Docs](
 https://zeus-mcmc.readthedocs.io/) |
 <img src="./img/art.png" width="20" height="20"> [Article](
-https://ui.adsabs.harvard.edu/abs/2020arXiv200206212K/abstract)
+https://api.semanticscholar.org/CorpusID:234338965)
