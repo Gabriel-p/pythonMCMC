@@ -3,6 +3,19 @@ Also here's a nice list
 of [MCMC algorithms](https://m-clark.github.io/docs/ld_mcmc/).
 
 
+## ABCer
+
+> A general ABC framework to accommondate any type of model for parameter
+inference.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/xl0418/ABCer) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://xl0418.github.io/2020/03/18/2020-03-18-generalABC/)
+
+---
+
+
 ## abcpmc
 
 > A Python Approximate Bayesian Computing (ABC) Population Monte Carlo (PMC)
@@ -56,6 +69,35 @@ https://github.com/eth-cscs/abcpy) |
 http://abcpy.readthedocs.io/en/) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://arxiv.org/abs/1711.04694)
+
+---
+
+
+## ABrox
+
+> ABrox is a python package for Approximate Bayesian Computation accompanied by
+a user-friendly graphical interface.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/mertensu/ABrox) | 
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0193981)
+
+---
+
+
+## ABC-SysBio
+
+> ABC-SysBio implements likelihood free parameter inference and model selection
+in dynamical systems. It is designed to work with both stochastic and
+deterministic models written in Systems Biology Markup Language (SBML).
+ABC-SysBio is a Python package that combines three algorithms: ABC rejection
+sampler, ABC SMC for parameter inference and ABC SMC for model selection.
+
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+http://www.theosysbio.bio.ic.ac.uk/resources/abc-sysbio/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://academic.oup.com/bioinformatics/article/26/14/1797/178572)
 
 ---
 
