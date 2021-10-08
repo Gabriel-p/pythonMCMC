@@ -1,4 +1,4 @@
-**A list of Python-based MCMC packages**.
+**A list of Python-based MCMC & ABC packages**.
 Also here's a nice list
 of [MCMC algorithms](https://m-clark.github.io/docs/ld_mcmc/).
 
