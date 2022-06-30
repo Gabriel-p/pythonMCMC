@@ -754,24 +754,16 @@ https://journals.plos.org/plosone/article?id=10.1371%2Fjournal.pone.0145180)
 
 ## UltraNest
 
-> Nested Sampling Development Framework & UltraNest
-> A Pythonic implementation of the Nested Sampling integration algorithm for
-Bayesian model comparison and parameter estimation. This package provides
-multiple implementations for constrained drawing functions, and a test suite to
-evaluate the correctness, accuracy and efficiency of various implementations.
-> The source code consists of three components:
->
->* A Modular framework for nested sampling algorithms (nested_sampling) and
-their development
->* Test framework to evaluate the performance and accuracy of algorithms 
-(testsuite)
->* UltraNest - A fast C implementation of a mixed RadFriends/MCMC nested
-sampling algorithm
+> UltraNest is intended for fitting complex physical models with slow likelihood
+evaluations, with one to hundreds of parameters. UltraNest intends to replace
+heuristic methods like multi-ellipsoid nested sampling and dynamic nested
+sampling with more rigorous methods. UltraNest also attempts to provide feature
+parity compared to other packages (such as MultiNest).
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
 https://github.com/JohannesBuchner/UltraNest) | 
 <img src="./img/docs.png" width="20" height="20"> [Docs](
-https://johannesbuchner.github.io/UltraNest/ultranest/) |
+https://johannesbuchner.github.io/) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://link.springer.com/article/10.1007/s11222-014-9512-y)
 
