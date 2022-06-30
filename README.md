@@ -763,7 +763,7 @@ parity compared to other packages (such as MultiNest).
 <img src="./img/github.png" width="20" height="20"> [Repo](
 https://github.com/JohannesBuchner/UltraNest) | 
 <img src="./img/docs.png" width="20" height="20"> [Docs](
-https://johannesbuchner.github.io/) |
+https://johannesbuchner.github.io/UltraNest/index.html) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://link.springer.com/article/10.1007/s11222-014-9512-y)
 
