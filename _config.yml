@@ -1,1 +1,8 @@
+title: pythonMCMC
+description: A list of Python-based MCMC & ABC packagess
+show_downloads: false
 theme: jekyll-theme-minimal
+is_project_page: true
+repository_url: https://github.com/Gabriel-p/pythonMCMC
+owner_url: https://github.com/Gabriel-p
+owner_name: Gabriel
