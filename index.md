@@ -83,7 +83,7 @@ https://arxiv.org/abs/1711.04694)
 a user-friendly graphical interface.
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
-https://github.com/mertensu/ABrox) | 
+https://github.com/stroblmar/ABrox) | 
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0193981)
 
