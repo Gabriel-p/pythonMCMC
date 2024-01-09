@@ -497,7 +497,7 @@ http://jellis18.github.io/PTMCMCSampler/)
 ---
 
 
-## pyabc
+## pyABC
 
 > pyABC is a framework for distributed, likelihood-free inference. That means,
 if you have a model and some data and want to know the posterior distribution
