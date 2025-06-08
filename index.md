@@ -106,6 +106,24 @@ https://academic.oup.com/bioinformatics/article/26/14/1797/178572)
 ---
 
 
+## approxbayescomp
+
+> Approximate Bayesian Computation (ABC) is a statistical method to fit a Bayesian
+> model to data when the likelihood function is hard to compute. The approxbayescomp
+> package implements an efficient form of ABC — the sequential Monte Carlo (SMC)
+> algorithm. While it can handle any general statistical problem, we built in some
+> models so that fitting insurance loss distributions is particularly easy.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/Pat-Laub/approxbayescomp) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://laub.au/approxbayescomp/latest/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://arxiv.org/abs/2007.03833)
+
+---
+
+
 ## astroABC
 
 > astroABC is a Python implementation of an Approximate Bayesian Computation
@@ -451,6 +469,26 @@ https://github.com/mfouesneau/NUTS) |
 http://js850.github.io/nested_sampling/) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 https://arxiv.org/abs/1111.4246)
+
+---
+
+
+## pocoMC
+
+> pocoMC is a Python package for fast Bayesian posterior and model evidence estimation.
+> It leverages the Preconditioned Monte Carlo (PMC) algorithm, offering significant
+> speed improvements over traditional methods like MCMC and Nested Sampling. Ideal
+> for large-scale scientific problems with expensive likelihood evaluations,
+> non-linear correlations, and multimodality, pocoMC provides efficient and scalable
+> posterior sampling and model evidence estimation. Widely used in cosmology and 
+> astronomy, pocoMC is user-friendly, flexible, and actively maintained.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/minaskar/pocomc) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://pocomc.readthedocs.io/)
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://ui.adsabs.harvard.edu/abs/2022JOSS....7.4634K/abstract)
 
 ---
 
