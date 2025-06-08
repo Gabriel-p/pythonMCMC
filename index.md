@@ -578,6 +578,21 @@ https://www.biorxiv.org/content/early/2017/07/17/162552)
 ---
 
 
+## PyVBMC
+
+> PyVBMC is a Python implementation of the Variational Bayesian Monte Carlo (VBMC)
+> algorithm for posterior and model inference, previously implemented in MATLAB.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/acerbilab/pyvbmc) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://acerbilab.github.io/pyvbmc/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://joss.theoj.org/papers/10.21105/joss.05428)
+
+---
+
+
 ## PyDREAM
 
 > A Python implementation of the MT-DREAM(ZS) algorithm.
