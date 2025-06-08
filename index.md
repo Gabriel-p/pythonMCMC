@@ -9,7 +9,7 @@ of [MCMC algorithms](https://m-clark.github.io/docs/ld_mcmc/).
 
 ## ABCer
 
-> A general ABC framework to accommondate any type of model for parameter
+> A general ABC framework to accommodate any type of model for parameter
 inference.
 
 <img src="./img/github.png" width="20" height="20"> [Repo](
@@ -348,11 +348,10 @@ https://pages.uoregon.edu/bfarr/kombine/index.html)
 ## MC3
 
 > Multi-Core Markov-Chain Monte Carlo (MC3) is a powerful Bayesian-statistics
-tool that offers:
+> tool that offers:
 >
 > * Levenberg-Marquardt least-squares optimization.
-> * Markov-chain Monte Carlo (MCMC) posterior-distribution sampling following
-the:
+> * Markov-chain Monte Carlo (MCMC) posterior-distribution sampling following the:
 >   * Metropolis-Hastings algorithm with Gaussian proposal distribution,
 >   * Differential-Evolution MCMC (DEMC), or
 >   * DEMCzs (Snooker).
@@ -363,6 +362,25 @@ https://github.com/pcubillos/MCcubed) |
 http://pcubillos.github.io/MCcubed/) |
 <img src="./img/art.png" width="20" height="20"> [Article](
 http://adsabs.harvard.edu/abs/2017AJ....153....3C)
+
+---
+
+
+## nautilus
+
+> Nautilus is an MIT-licensed pure-Python package for Bayesian posterior and evidence
+> estimation. It utilizes importance sampling and efficient space exploration using
+> neural networks. Compared to traditional MCMC and Nested Sampling codes, it often
+> needs fewer likelihood calls and produces much larger posterior samples.
+> Additionally, nautilus is highly accurate and produces Bayesian evidence estimates
+> with percent precision. It is widely used in many areas of astrophysical research.
+
+<img src="./img/github.png" width="20" height="20"> [Repo](
+https://github.com/johannesulf/nautilus) | 
+<img src="./img/docs.png" width="20" height="20"> [Docs](
+https://nautilus-sampler.readthedocs.io/) |
+<img src="./img/art.png" width="20" height="20"> [Article](
+https://academic.oup.com/mnras/article/525/2/3181/7243406)
 
 ---
 
